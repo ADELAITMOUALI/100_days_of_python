@@ -1,6 +1,6 @@
 # Turtle Race Game
 
-A fun game where you bet on which turtle will win the race! Six colorful turtles race to the finish line, and your job is to guess the winner. If your turtle wins, you win the game!
+A fun and exciting game where you bet on which turtle will win the race! Six colorful turtles race to the finish line, moving randomly along the way. Your job is to guess the winner, and if your chosen turtle wins, so do you!
 
 ## How to Play:
 1. Run the `main.py` file.
