@@ -15,8 +15,9 @@ This is a simple **Snake Game** built using Python's Turtle module. The player c
 4. **`scoreboard.py`**: Manages the score display and handles the game over state.
 
 ## Images
-- **Game Over Image**: ![Game Over](result/game_over.png)
-- **Start Image**: ![Start](result/start.png)
+ ![Start](result/start.png)
+
+ ![Game Over](result/game_over.png)
 
 ## How to Run the Game
 1. Ensure you have Python installed on your computer.
