@@ -1,6 +1,6 @@
 # Pomodoro Timer
 
-![Pomodoro Timer](tomato.png)
+![Pomodoro Timer](result/pomodoro.png)
 
 ## Description
 
