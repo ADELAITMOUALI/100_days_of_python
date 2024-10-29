@@ -21,11 +21,7 @@ The Pomodoro Timer is a simple and effective tool for managing your time and boo
 
 ## Installation
 
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your_username/Pomodoro_App.git
-   ```
+1. Download this Folder to your local machine:
 2. If you are a Linux user, simply add execute permissions to the main executable:
 
    ```bash
@@ -33,4 +29,11 @@ The Pomodoro Timer is a simple and effective tool for managing your time and boo
    ./main
 
    ```
+3. if you are a Windows user .
+   ### Windows
+
+   a. Download and run the installer `Pomodoro.exe`.
+   b. Follow the installation instructions.
+   c. Launch the application from the Start menu or desktop shortcut.
+
 
