@@ -33,7 +33,9 @@ The Pomodoro Timer is a simple and effective tool for managing your time and boo
    ### Windows
 
    a. Download and run the installer `Pomodoro.exe`.
+   
    b. Follow the installation instructions.
+
    c. Launch the application from the Start menu or desktop shortcut.
 
 
