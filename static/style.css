@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card Styling */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    width: 450px; /* Increased from 300px */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Profile Picture */
+.profile-pic {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 180px; /* Increased from 120px */
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Name & Role */
+.name {
+    font-size: 2.4em; /* Bigger title */
+    color: white;
+    margin-bottom: 8px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.8);
+
+    /* Typewriter effect */
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    animation: typing 3s steps(20, end), blink 0.6s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    50% { border-color: transparent }
+}
+
+.role {
+    color: #ddd;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Social Links */
+.social-links a {
+    color: white;
+    font-size: 2em; /* Bigger icons */
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #fdbb2d;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .name {
+        font-size: 1.8em;
+    }
+
+    .social-links a {
+        font-size: 1.8em;
+    }
+}
