@@ -10,4 +10,4 @@ This is a simple personal website built with Flask.
 
 ## Screenshot
 
-![Screenshot](screenshote/screenshote.png)
+![Screenshot](screenshot/screenshot.png)
